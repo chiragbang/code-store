@@ -1,0 +1,9 @@
+.gif{
+    font-size: 5rem;
+    text-align: center;
+    background-image: url("gif.gif");
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+}
