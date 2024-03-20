@@ -1,6 +1,6 @@
 .button {
-    --background: #2b3044;
-    --background-hover: #1e2235;
+    --background: black;
+    --background-hover: rgb(20, 16, 16);
     --text: #fff;
     --shadow: rgba(0, 9, 61, .2);
     --paper: #5c86ff;
@@ -126,6 +126,8 @@
     z-index: 2;
     transition: border-color 0.3s;
 }
+
+
 .button .trash .box:before, .button .trash .box:after {
     content: '';
     position: absolute;
@@ -143,6 +145,8 @@
     opacity: var(--trash-lines-opacity, 1);
     transition: transform 0.4s, opacity 0.4s;
 }
+
+
 .button .trash .box:after {
     --h: 16px;
     --b: var(--paper);
@@ -257,5 +261,5 @@ body {
     font-family: 'Inter', Arial;
     justify-content: center;
     align-items: center;
-    background: #0f172a;
+    /* background: gray; */
 }
