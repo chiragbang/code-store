@@ -18,6 +18,8 @@ body{
     border-radius: 50%;
     animation: ring 2s linear infinite;
   }
+
+
   @keyframes ring {
     0%{
       transform: rotate(0deg);
@@ -32,6 +34,8 @@ body{
       box-shadow: 1px 5px 2px #04c84f;
     }
   }
+
+  
   .ring:before{
     position: absolute;
     content: '';
